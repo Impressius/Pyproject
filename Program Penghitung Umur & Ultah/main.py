@@ -1,8 +1,8 @@
 import datetime 
 
-print("\n"+5*"="+" PROGRAM PENGHITUNG UMUR "+"="*5+"\n")
+print("\n"+5*"="+" Program penghitung Umur & Ultah"+"="*5+"\n")
 
-print(f"Masukkan Tanggal, Bulan, dan Tahun Lahir anda\n")
+print(f"Masukkan Tanggal, Bulan, dan Tahun Lahir anda")
 Tanggal = int(input("Tanggal\t: ")) #Input Umur User
 Bulan = int(input("Bulan\t: "))
 Tahun = int(input("Tahun\t: "))
@@ -30,3 +30,4 @@ if ultah_depan == hari_ini:
 
 print(f"Umur anda adalah {umur_tahun} tahun, {umur_bulan} bulan")
 print(f"Dan anda akan ultah {day_to_bday.days} Hari lagi")
+print("\n" + 5*"=" + " Akhir dari Program " + "="*5)
